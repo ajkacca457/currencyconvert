@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+
+
+* {
+  font-family:'Caladea', serif;
+  padding:0;
+  margin: 0;
+}
+
+#exchangesym {
+  width:30%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    text-align: center;
+}
+
+.fullcontainer {
+  padding: 2%;
+  background-color: rgba(15, 108, 149, 1);
+  color:white;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.dcontainer {
+  margin: 2%;
+  }
+
+.dcontainer h2 {
+  font-size: 150%;
+    }
+
+.dcontainer p {
+font-size: 110%;
+  margin: 2% 0;
+}
+
+
+.currency {
+  padding: 2%;
+  margin: 3%;
+  border-radius:10px;
+  font-size: 110%;
+}
+
+
+#swap {
+  padding:10px;
+  border: 1px white solid;
+  background-color:red;
+  color:white;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  font-size: 105%;
+}
+
+#swap:hover {
+  background-color: orangered;
+}
+
+
+#rate {
+  background-color:rgba(218, 100, 22, 1);
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 110%;
+  margin: 0 auto;
+  display: none;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
